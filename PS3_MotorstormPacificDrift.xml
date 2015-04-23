@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <controller id="1" dpi="0">
+    <configuration id="1">
+      <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
+      <intensity_list/>
+      <button_map>
+        <button id="cross" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="circle" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="0"/>
+        </button>
+        <button id="square" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="triangle" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="l1" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="4"/>
+        </button>
+        <button id="r1" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="5"/>
+        </button>
+        <button id="r2" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="7"/>
+        </button>
+        <button id="PS" label="">
+          <device type="keyboard" id="0" name="Belkin Belkin n52te"/>
+          <event type="button" id="x"/>
+        </button>
+        <button id="start" label="">
+          <device type="keyboard" id="0" name="Belkin Belkin n52te"/>
+          <event type="button" id="c"/>
+        </button>
+        <button id="l3" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="9"/>
+        </button>
+        <button id="r3" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="8"/>
+        </button>
+        <button id="select" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="button" id="6"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="lstick left" label="">
+          <device type="keyboard" id="0" name="Belkin Belkin n52te"/>
+          <event type="button" id="q"/>
+        </axis>
+        <axis id="lstick right" label="">
+          <device type="keyboard" id="0" name="Belkin Belkin n52te"/>
+          <event type="button" id="d"/>
+        </axis>
+        <axis id="lstick up" label="">
+          <device type="keyboard" id="0" name="Belkin Belkin n52te"/>
+          <event type="button" id="z"/>
+        </axis>
+        <axis id="lstick down" label="">
+          <device type="keyboard" id="0" name="Belkin Belkin n52te"/>
+          <event type="button" id="s"/>
+        </axis>
+        <axis id="r2" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="axis" id="1" dead_zone="0" multiplier="-0.008" exponent="1" shape="" buffer_size="1" filter="0.00"/>
+        </axis>
+        <axis id="l2" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="axis" id="1" dead_zone="0" multiplier="0.008" exponent="1" shape="" buffer_size="1" filter="0.00"/>
+        </axis>
+        <axis id="lstick x" label="">
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
+          <event type="axis" id="0" dead_zone="0" multiplier="0.006" exponent="1" shape="Circle" buffer_size="1" filter="0.00"/>
+        </axis>
+      </axis_map>
+    </configuration>
+  </controller>
+</root>
