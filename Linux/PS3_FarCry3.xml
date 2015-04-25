@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <controller id="1" dpi="8200">
+    <configuration id="1">
+      <trigger type="keyboard" id="0" name="" button_id="LALT" switch_back="no" delay="0"/>
+      <mouse_options_list>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
+      </mouse_options_list>
+      <intensity_list/>
+      <button_map>
+        <button id="l2" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_X3"/>
+        </button>
+        <button id="start" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="c"/>
+        </button>
+        <button id="r3" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_MIDDLE"/>
+        </button>
+        <button id="l3" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LSHIFT"/>
+        </button>
+        <button id="r2" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_X4"/>
+        </button>
+        <button id="r1" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_LEFT"/>
+        </button>
+        <button id="l1" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
+        </button>
+        <button id="square" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="r"/>
+        </button>
+        <button id="cross" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="UP"/>
+        </button>
+        <button id="circle" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="DOWN"/>
+        </button>
+        <button id="triangle" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="left" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LEFT"/>
+        </button>
+        <button id="down" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="z"/>
+        </button>
+        <button id="right" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="RIGHT"/>
+        </button>
+        <button id="up" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="q"/>
+        </button>
+        <button id="PS" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="x"/>
+        </button>
+        <button id="select" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="TAB"/>
+        </button>
+        <button id="square" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LALT"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="rstick y" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="19" multiplier="12.50" exponent="0.45" shape="Circle"/>
+        </axis>
+        <axis id="rstick x" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="19" multiplier="5.00" exponent="0.45" shape="Circle"/>
+        </axis>
+        <axis id="lstick left" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </axis>
+        <axis id="lstick down" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </axis>
+        <axis id="lstick right" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="d"/>
+        </axis>
+        <axis id="lstick up" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="w"/>
+        </axis>
+      </axis_map>
+    </configuration>
+    <configuration id="2">
+      <trigger type="mouse" id="0" name="" button_id="BUTTON_RIGHT" switch_back="yes" delay="0"/>
+      <mouse_options_list>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
+      </mouse_options_list>
+      <intensity_list/>
+      <button_map>
+        <button id="l2" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_X3"/>
+        </button>
+        <button id="start" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="c"/>
+        </button>
+        <button id="r3" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_MIDDLE"/>
+        </button>
+        <button id="l3" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LSHIFT"/>
+        </button>
+        <button id="r2" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_X4"/>
+        </button>
+        <button id="r1" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_LEFT"/>
+        </button>
+        <button id="l1" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
+        </button>
+        <button id="square" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="r"/>
+        </button>
+        <button id="cross" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="UP"/>
+        </button>
+        <button id="circle" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="DOWN"/>
+        </button>
+        <button id="triangle" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="left" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LEFT"/>
+        </button>
+        <button id="down" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="z"/>
+        </button>
+        <button id="right" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="RIGHT"/>
+        </button>
+        <button id="up" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="q"/>
+        </button>
+        <button id="PS" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="x"/>
+        </button>
+        <button id="select" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="TAB"/>
+        </button>
+        <button id="square" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LALT"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="rstick y" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="19" multiplier="12.50" exponent="0.45" shape="Circle"/>
+        </axis>
+        <axis id="rstick x" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="19" multiplier="5.00" exponent="0.45" shape="Circle"/>
+        </axis>
+        <axis id="lstick left" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </axis>
+        <axis id="lstick down" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </axis>
+        <axis id="lstick right" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="d"/>
+        </axis>
+        <axis id="lstick up" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="w"/>
+        </axis>
+      </axis_map>
+    </configuration>
+    <configuration id="3">
+      <trigger type="keyboard" id="0" name="" button_id="LALT" switch_back="no" delay="0"/>
+      <mouse_options_list>
+        <mouse name="" id="0" mode="Driving" buffer_size="1" filter="0.00"/>
+      </mouse_options_list>
+      <intensity_list/>
+      <button_map>
+        <button id="r1" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="w"/>
+        </button>
+        <button id="l1" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </button>
+        <button id="circle" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="DOWN"/>
+        </button>
+        <button id="cross" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="UP"/>
+        </button>
+        <button id="PS" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="x"/>
+        </button>
+        <button id="start" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="c"/>
+        </button>
+        <button id="select" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="TAB"/>
+        </button>
+        <button id="square" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LALT"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="lstick x" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="0" multiplier="0.07" exponent="0.45" shape="Circle"/>
+        </axis>
+        <axis id="rstick left" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </axis>
+        <axis id="rstick right" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="d"/>
+        </axis>
+      </axis_map>
+    </configuration>
+  </controller>
+</root>
