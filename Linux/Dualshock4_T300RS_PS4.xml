@@ -2,7 +2,7 @@
 <root>
   <controller id="1" dpi="0" type="T300RS PS4">
     <configuration id="1">
-      <trigger type="keyboard" id="0" name="" button_id="LSHIFT" switch_back="no" delay="0"/>
+      <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
       <mouse_options_list/>
       <intensity_list/>
       <button_map>
