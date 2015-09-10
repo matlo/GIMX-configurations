@@ -28,7 +28,6 @@
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="f"/>
         </button>
-        <button_map>
         <button id="abs_axis_17" label="">
           <device type="joystick" id="0" name="PS4 Controller"/>
           <event type="button" id="15"/>
