@@ -102,7 +102,7 @@
         </axis>
         <axis id="rel_axis_0" label="">
           <device type="joystick" id="0" name="Logitech Inc. WingMan Formula Force GP"/>
-          <event type="axis" id="0" dead_zone="0" multiplier="0.004" exponent="1.00" shape="Circle"/>
+          <event type="axis" id="0" dead_zone="0" multiplier="0.0039" exponent="1.00" shape="Circle"/>
         </axis>
       </axis_map>
     </configuration>
