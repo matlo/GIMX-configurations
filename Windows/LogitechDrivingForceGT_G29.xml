@@ -150,7 +150,7 @@
       <axis_map>
         <axis id="rel_axis_0" label="wheel">
           <device type="joystick" id="0" name="Logitech Driving Force GT USB"/>
-          <event type="axis" id="0" dead_zone="0" multiplier="0.002" exponent="1.00" shape="Circle"/>
+          <event type="axis" id="0" dead_zone="0" multiplier="0.0039" exponent="1.00" shape="Circle"/>
         </axis>
         <axis id="abs_axis_17" label="gas">
           <device type="joystick" id="0" name="Logitech Driving Force GT USB"/>
