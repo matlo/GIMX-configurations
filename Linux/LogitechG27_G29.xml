@@ -98,15 +98,15 @@
           <device type="joystick" id="0" name="G27 Racing Wheel"/>
           <event type="button" id="15"/>
         </button>
-        <button id="" label="">
+        <button id="abs_axis_24" label="">
           <device type="joystick" id="0" name="G27 Racing Wheel"/>
           <event type="button" id="16"/>
         </button>
-        <button id="" label="">
+        <button id="abs_axis_25" label="">
           <device type="joystick" id="0" name="G27 Racing Wheel"/>
           <event type="button" id="17"/>
         </button>
-        <button id="" label="">
+        <button id="abs_axis_26" label="">
           <device type="joystick" id="0" name="G27 Racing Wheel"/>
           <event type="button" id="22"/>
         </button>
@@ -186,7 +186,7 @@
         </axis>
         <axis id="abs_axis_19" label="clutch">
           <device type="joystick" id="0" name="G27 Racing Wheel"/>
-          <event type="axis" id="1" dead_zone="0" multiplier="0.008" exponent="1.00" shape="Circle"/>
+          <event type="axis" id="1" dead_zone="0" multiplier="0.008" exponent="1.00" shape=""/>
         </axis>
       </axis_map>
     </configuration>
