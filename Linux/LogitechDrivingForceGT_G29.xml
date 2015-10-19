@@ -157,6 +157,16 @@
           <event type="axis" id="2" dead_zone="0" multiplier="0.008" exponent="1.00" shape=""/>
         </axis>
       </axis_map>
+      <joystick_corrections_list>
+        <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
+          <device type="joystick" id="0" name="Driving Force GT"/>
+          <event type="axis" id="1"/>
+        </correction>
+        <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
+          <device type="joystick" id="0" name="Driving Force GT"/>
+          <event type="axis" id="2"/>
+        </correction>
+      </joystick_corrections_list>
     </configuration>
   </controller>
 </root>
