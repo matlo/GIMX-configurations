@@ -182,17 +182,31 @@
         </axis>
         <axis id="abs_axis_17" label="gas">
           <device type="joystick" id="0" name="Logitech G27 Racing Wheel USB"/>
-          <event type="axis" id="1" dead_zone="0" multiplier="-0.008" exponent="1.00" shape=""/>
+          <event type="axis" id="1" dead_zone="0" multiplier="0.008" exponent="1.00" shape=""/>
         </axis>
         <axis id="abs_axis_18" label="brake">
           <device type="joystick" id="0" name="Logitech G27 Racing Wheel USB"/>
-          <event type="axis" id="2" dead_zone="0" multiplier="-0.008" exponent="1.00" shape=""/>
+          <event type="axis" id="2" dead_zone="0" multiplier="0.008" exponent="1.00" shape=""/>
         </axis>
         <axis id="abs_axis_19" label="clutch">
           <device type="joystick" id="0" name="Logitech G27 Racing Wheel USB"/>
-          <event type="axis" id="4" dead_zone="0" multiplier="-0.008" exponent="1.00" shape=""/>
+          <event type="axis" id="4" dead_zone="0" multiplier="0.008" exponent="1.00" shape=""/>
         </axis>
       </axis_map>
+      <joystick_corrections_list>
+        <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
+          <device type="joystick" id="0" name="Logitech Driving Force GT USB"/>
+          <event type="axis" id="1"/>
+        </correction>
+        <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
+          <device type="joystick" id="0" name="Logitech Driving Force GT USB"/>
+          <event type="axis" id="2"/>
+        </correction>
+        <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
+          <device type="joystick" id="0" name="Logitech Driving Force GT USB"/>
+          <event type="axis" id="4"/>
+        </correction>
+      </joystick_corrections_list>
     </configuration>
   </controller>
 </root>
