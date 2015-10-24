@@ -123,11 +123,11 @@
       </axis_map>
       <joystick_corrections_list>
         <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
-          <device type="joystick" id="0" name="Driving Force GT"/>
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
           <event type="axis" id="1"/>
         </correction>
         <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
-          <device type="joystick" id="0" name="Driving Force GT"/>
+          <device type="joystick" id="0" name="Logitech  Logitech MOMO Racing "/>
           <event type="axis" id="2"/>
         </correction>
       </joystick_corrections_list>

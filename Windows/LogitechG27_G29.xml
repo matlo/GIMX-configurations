@@ -195,15 +195,15 @@
       </axis_map>
       <joystick_corrections_list>
         <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
-          <device type="joystick" id="0" name="Logitech Driving Force GT USB"/>
+          <device type="joystick" id="0" name="Logitech G27 Racing Wheel USB"/>
           <event type="axis" id="1"/>
         </correction>
         <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
-          <device type="joystick" id="0" name="Logitech Driving Force GT USB"/>
+          <device type="joystick" id="0" name="Logitech G27 Racing Wheel USB"/>
           <event type="axis" id="2"/>
         </correction>
         <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
-          <device type="joystick" id="0" name="Logitech Driving Force GT USB"/>
+          <device type="joystick" id="0" name="Logitech G27 Racing Wheel USB"/>
           <event type="axis" id="4"/>
         </correction>
       </joystick_corrections_list>
