@@ -198,6 +198,10 @@
           <device type="joystick" id="0" name="G27 Racing Wheel"/>
           <event type="axis" id="2"/>
         </correction>
+        <correction low_value="32767" low_coef="-8192" high_value="0" high_coef="0">
+          <device type="joystick" id="0" name="G27 Racing Wheel"/>
+          <event type="axis" id="3"/>
+        </correction>
       </joystick_corrections_list>
     </configuration>
   </controller>
