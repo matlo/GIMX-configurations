@@ -146,7 +146,7 @@
         </axis>
         <axis id="rel_axis_0" label="wheel">
           <device type="joystick" id="0" name="Logitech Logitech Driving Force EX"/>
-          <event type="axis" id="0" dead_zone="0" multiplier="0.003" exponent="1.00" shape=""/>
+          <event type="axis" id="0" dead_zone="0" multiplier="0.0039" exponent="1.00" shape=""/>
         </axis>
       </axis_map>
       <joystick_corrections_list>
