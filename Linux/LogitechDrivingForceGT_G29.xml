@@ -142,6 +142,26 @@
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
           <event type="button" id="17"/>
         </button>
+        <button id="abs_axis_27" label="">
+          <device type="joystick" id="0" name="Driving Force GT"/>
+          <event type="button" id="15"/>
+        </button>
+        <button id="abs_axis_28" label="">
+          <device type="joystick" id="0" name="Driving Force GT"/>
+          <event type="button" id="18"/>
+        </button>
+        <button id="abs_axis_29" label="">
+          <device type="joystick" id="0" name="Driving Force GT"/>
+          <event type="button" id="16"/>
+        </button>
+        <button id="abs_axis_30" label="">
+          <device type="joystick" id="0" name="Driving Force GT"/>
+          <event type="button" id="17"/>
+        </button>
+        <button id="abs_axis_31" label="">
+          <device type="joystick" id="0" name="Driving Force GT"/>
+          <event type="button" id="14"/>
+        </button>
       </button_map>
       <axis_map>
         <axis id="rel_axis_0" label="wheel">
