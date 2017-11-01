@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <controller id="1" dpi="8200" type="DS4">
+    <configuration id="1">
+      <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
+      <mouse_options_list>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.0"/>
+      </mouse_options_list>
+      <intensity_list/>
+      <button_map>
+        <button id="abs_axis_0" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="KP2"/>
+        </button>
+        <button id="abs_axis_1" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="ESCAPE"/>
+        </button>
+        <button id="abs_axis_2" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="KP1"/>
+        </button>
+        <button id="abs_axis_3" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="c"/>
+        </button>
+        <button id="abs_axis_4" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="v"/>
+        </button>
+        <button id="abs_axis_5" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="x"/>
+        </button>
+        <button id="abs_axis_6" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="g"/>
+        </button>
+        <button id="abs_axis_3" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="UP"/>
+        </button>
+        <button id="abs_axis_4" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="RIGHT"/>
+        </button>
+        <button id="abs_axis_5" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="DOWN"/>
+        </button>
+        <button id="abs_axis_6" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LEFT"/>
+        </button>
+        <button id="abs_axis_7" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_8" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LCTRL"/>
+        </button>
+        <button id="abs_axis_9" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="SPACE"/>
+        </button>
+        <button id="abs_axis_10" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="r"/>
+        </button>
+        <button id="abs_axis_11" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="q"/>
+        </button>
+        <button id="abs_axis_12" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="abs_axis_13" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
+        </button>
+        <button id="abs_axis_14" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_LEFT"/>
+        </button>
+        <button id="abs_axis_15" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LSHIFT"/>
+        </button>
+        <button id="abs_axis_16" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="TAB"/>
+        </button>
+        <button id="abs_axis_17" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="m"/>
+        </button>
+        <button id="abs_axis_18" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="KP3"/>
+        </button>
+        <button id="abs_axis_19" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="KP4"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="rel_axis_2" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="30" multiplier="8.00" exponent="0.56" shape="Rectangle"/>
+        </axis>
+        <axis id="rel_axis_3" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="30" multiplier="10.40" exponent="0.56" shape="Rectangle"/>
+        </axis>
+        <axis id="rel_axis_0-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </axis>
+        <axis id="rel_axis_0+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="d"/>
+        </axis>
+        <axis id="rel_axis_1-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="w"/>
+        </axis>
+        <axis id="rel_axis_1+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </axis>
+      </axis_map>
+      <joystick_corrections_list/>
+    </configuration>
+    <configuration id="2">
+      <trigger type="mouse" id="0" name="" button_id="BUTTON_RIGHT" switch_back="yes" delay="0"/>
+      <mouse_options_list>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.0"/>
+      </mouse_options_list>
+      <intensity_list/>
+      <button_map>
+        <button id="abs_axis_0" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="KP2"/>
+        </button>
+        <button id="abs_axis_1" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="ESCAPE"/>
+        </button>
+        <button id="abs_axis_2" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="KP1"/>
+        </button>
+        <button id="abs_axis_3" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="c"/>
+        </button>
+        <button id="abs_axis_4" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="v"/>
+        </button>
+        <button id="abs_axis_5" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="x"/>
+        </button>
+        <button id="abs_axis_6" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="g"/>
+        </button>
+        <button id="abs_axis_3" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="UP"/>
+        </button>
+        <button id="abs_axis_4" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="RIGHT"/>
+        </button>
+        <button id="abs_axis_5" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="DOWN"/>
+        </button>
+        <button id="abs_axis_6" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LEFT"/>
+        </button>
+        <button id="abs_axis_7" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_8" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LCTRL"/>
+        </button>
+        <button id="abs_axis_9" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="SPACE"/>
+        </button>
+        <button id="abs_axis_10" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="r"/>
+        </button>
+        <button id="abs_axis_11" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="q"/>
+        </button>
+        <button id="abs_axis_12" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="abs_axis_13" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
+        </button>
+        <button id="abs_axis_14" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_LEFT"/>
+        </button>
+        <button id="abs_axis_15" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="LSHIFT"/>
+        </button>
+        <button id="abs_axis_16" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="TAB"/>
+        </button>
+        <button id="abs_axis_17" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="m"/>
+        </button>
+        <button id="abs_axis_18" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="KP3"/>
+        </button>
+        <button id="abs_axis_19" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="KP4"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="rel_axis_2" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="30" multiplier="8.00" exponent="0.56" shape="Rectangle"/>
+        </axis>
+        <axis id="rel_axis_3" label="">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="30" multiplier="10.40" exponent="0.56" shape="Rectangle"/>
+        </axis>
+        <axis id="rel_axis_0-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </axis>
+        <axis id="rel_axis_0+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="d"/>
+        </axis>
+        <axis id="rel_axis_1-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="w"/>
+        </axis>
+        <axis id="rel_axis_1+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </axis>
+      </axis_map>
+      <joystick_corrections_list/>
+    </configuration>
+  </controller>
+</root>
