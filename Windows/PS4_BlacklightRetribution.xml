@@ -150,22 +150,6 @@
         </button>
       </button_map>
       <axis_map>
-        <axis id="rel_axis_0" label="">
-          <device type="joystick" id="0" name="PS4 Controller"/>
-          <event type="axis" id="0" dead_zone="0" multiplier="0.004" exponent="1.00" shape="Circle"/>
-        </axis>
-        <axis id="rel_axis_1" label="">
-          <device type="joystick" id="0" name="PS4 Controller"/>
-          <event type="axis" id="1" dead_zone="0" multiplier="0.004" exponent="1.00" shape="Circle"/>
-        </axis>
-        <axis id="rel_axis_2" label="">
-          <device type="joystick" id="0" name="PS4 Controller"/>
-          <event type="axis" id="2" dead_zone="0" multiplier="0.004" exponent="1.00" shape="Circle"/>
-        </axis>
-        <axis id="rel_axis_3" label="">
-          <device type="joystick" id="0" name="PS4 Controller"/>
-          <event type="axis" id="3" dead_zone="0" multiplier="0.004" exponent="1.00" shape="Circle"/>
-        </axis>
         <axis id="abs_axis_13" label="">
           <device type="joystick" id="0" name="PS4 Controller"/>
           <event type="axis" id="4" dead_zone="0" multiplier="0.008" exponent="1.00" shape="Circle"/>
