@@ -152,11 +152,11 @@
         </button>
         <button id="abs_axis_29" label="">
           <device type="joystick" id="0" name="Driving Force GT"/>
-          <event type="button" id="16"/>
+          <event type="button" id="25"/>
         </button>
         <button id="abs_axis_30" label="">
           <device type="joystick" id="0" name="Driving Force GT"/>
-          <event type="button" id="17"/>
+          <event type="button" id="26"/>
         </button>
         <button id="abs_axis_31" label="">
           <device type="joystick" id="0" name="Driving Force GT"/>
@@ -187,6 +187,17 @@
           <event type="axis" id="2"/>
         </correction>
       </joystick_corrections_list>
+      <macros>
+        MACRO JBUTTONDOWN 16
+        JBUTTONDOWN 25
+        DELAY 5
+        JBUTTONUP 25
+
+        MACRO JBUTTONDOWN 17
+        JBUTTONDOWN 26
+        DELAY 5
+        JBUTTONUP 26
+      </macros>
     </configuration>
   </controller>
 </root>
