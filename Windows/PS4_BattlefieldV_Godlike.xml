@@ -84,11 +84,11 @@
       <axis_map>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="3" multiplier="7.27" exponent="0.62" shape="Circle"/>
+          <event type="axis" id="y" dead_zone="3" multiplier="7.15" exponent="0.63" shape="Circle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="3" multiplier="6.32" exponent="0.62" shape="Circle"/>
+          <event type="axis" id="x" dead_zone="3" multiplier="6.32" exponent="0.63" shape="Circle"/>
         </axis>
         <axis id="rel_axis_0-" label="">
           <device type="keyboard" id="0" name=""/>
@@ -192,11 +192,11 @@
       <axis_map>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="3" multiplier="7.82" exponent="0.62" shape="Circle"/>
+          <event type="axis" id="y" dead_zone="3" multiplier="7.62" exponent="0.65" shape="Circle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="3" multiplier="6.80" exponent="0.62" shape="Circle"/>
+          <event type="axis" id="x" dead_zone="3" multiplier="6.80" exponent="0.65" shape="Circle"/>
         </axis>
         <axis id="rel_axis_0-" label="">
           <device type="keyboard" id="0" name=""/>
