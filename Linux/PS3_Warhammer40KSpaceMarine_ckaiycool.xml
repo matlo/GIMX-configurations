@@ -4,65 +4,65 @@
     <configuration id="1">
       <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
       <mouse_options_list>
-        <mouse name="" id="0" mode="Aiming" buffer_size="2" filter="1.00"/>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
       </mouse_options_list>
       <intensity_list/>
       <button_map>
-        <button id="abs_axis_6" label="Move Silently">
+        <button id="abs_axis_16" label="Fury Mode">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="4"/>
+          <event type="button" id="t"/>
         </button>
-        <button id="abs_axis_5" label="Smart Vision">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="3"/>
-        </button>
-        <button id="abs_axis_4" label="Typhoon">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="2"/>
-        </button>
-        <button id="abs_axis_3" label="Cloaking">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="1"/>
-        </button>
-        <button id="abs_axis_16" label="Iron Sight/Zoom">
-          <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_RIGHT"/>
-        </button>
-        <button id="abs_axis_15" label="Crouch">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="LCTRL"/>
-        </button>
-        <button id="abs_axis_14" label="Grenade">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="g"/>
-        </button>
-        <button id="abs_axis_13" label="Sprint">
+        <button id="abs_axis_15" label="Sprint">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="LSHIFT"/>
+        </button>
+        <button id="abs_axis_14" label="Strike">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_X1"/>
+        </button>
+        <button id="abs_axis_13" label="Grenade">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="f"/>
         </button>
         <button id="abs_axis_12" label="Fire">
           <device type="mouse" id="0" name=""/>
           <event type="button" id="BUTTON_LEFT"/>
         </button>
-        <button id="abs_axis_11" label="Take Cover">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="q"/>
+        <button id="abs_axis_11" label="Aim">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
         </button>
-        <button id="abs_axis_10" label="Interact/Reload">
+        <button id="abs_axis_10" label="Reload/Vent">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="r"/>
         </button>
-        <button id="abs_axis_9" label="Jump">
+        <button id="abs_axis_9" label="Evade/Jump Pack">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="SPACE"/>
         </button>
-        <button id="abs_axis_8" label="Press-Non lethal/ Hold-Lethal takedown">
+        <button id="abs_axis_8" label="Use/Execute">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="abs_axis_7" label="Stun/Alt. Strike">
           <device type="mouse" id="0" name=""/>
           <event type="button" id="BUTTON_MIDDLE"/>
         </button>
-        <button id="abs_axis_7" label="Press-Holster/Hold-Quick Inventory">
-          <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_X1"/>
+        <button id="abs_axis_6" label="Weapon 2">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_5" label="Weapon 4">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="4"/>
+        </button>
+        <button id="abs_axis_4" label="Weapon 3">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="abs_axis_3" label="Weapon 1">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
         </button>
         <button id="abs_axis_2" label="PS Menu">
           <device type="keyboard" id="0" name=""/>
@@ -72,12 +72,24 @@
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="RETURN"/>
         </button>
-        <button id="abs_axis_0" label="In-Game Menu">
+        <button id="abs_axis_0" label="GPS">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="TAB"/>
         </button>
+        <button id="abs_axis_15" label="Fury Mode">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="t"/>
+        </button>
       </button_map>
       <axis_map>
+        <axis id="rel_axis_3" label="Aiming - y axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="35" multiplier="19.38" exponent="0.39" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_2" label="Aiming - x axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="35" multiplier="15.50" exponent="0.39" shape="Circle"/>
+        </axis>
         <axis id="rel_axis_0-" label="">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="a"/>
@@ -93,14 +105,6 @@
         <axis id="rel_axis_1-" label="">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="w"/>
-        </axis>
-        <axis id="rel_axis_3" label="Aiming - y axis">
-          <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="34" multiplier="7.50" exponent="0.60" shape="Rectangle"/>
-        </axis>
-        <axis id="rel_axis_2" label="Aiming - x axis">
-          <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="34" multiplier="5.00" exponent="0.60" shape="Rectangle"/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>
@@ -108,65 +112,65 @@
     <configuration id="2">
       <trigger type="mouse" id="0" name="" button_id="BUTTON_RIGHT" switch_back="yes" delay="0"/>
       <mouse_options_list>
-        <mouse name="" id="0" mode="Aiming" buffer_size="2" filter="1.00"/>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
       </mouse_options_list>
       <intensity_list/>
       <button_map>
-        <button id="abs_axis_6" label="Move Silently">
+        <button id="abs_axis_16" label="LSHIFT+T - Fury Mode">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="4"/>
+          <event type="button" id="t"/>
         </button>
-        <button id="abs_axis_5" label="Smart Vision">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="3"/>
-        </button>
-        <button id="abs_axis_4" label="Typhoon">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="2"/>
-        </button>
-        <button id="abs_axis_3" label="Cloaking">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="1"/>
-        </button>
-        <button id="abs_axis_16" label="Iron Sight/Zoom">
-          <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_RIGHT"/>
-        </button>
-        <button id="abs_axis_15" label="Crouch">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="LCTRL"/>
-        </button>
-        <button id="abs_axis_14" label="Grenade">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="g"/>
-        </button>
-        <button id="abs_axis_13" label="Sprint">
+        <button id="abs_axis_15" label="Sprint/ Fury Mode">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="LSHIFT"/>
+        </button>
+        <button id="abs_axis_14" label="Strike">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_X1"/>
+        </button>
+        <button id="abs_axis_13" label="Grenade">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="f"/>
         </button>
         <button id="abs_axis_12" label="Fire">
           <device type="mouse" id="0" name=""/>
           <event type="button" id="BUTTON_LEFT"/>
         </button>
-        <button id="abs_axis_11" label="Take Cover">
-          <device type="keyboard" id="0" name=""/>
-          <event type="button" id="q"/>
+        <button id="abs_axis_11" label="Aim">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
         </button>
-        <button id="abs_axis_10" label="Interact/Reload">
+        <button id="abs_axis_10" label="Reload/Vent">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="r"/>
         </button>
-        <button id="abs_axis_9" label="Jump">
+        <button id="abs_axis_9" label="Evade/Jump Pack">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="SPACE"/>
         </button>
-        <button id="abs_axis_8" label="Press-Non lethal/ Hold-Lethal takedown">
+        <button id="abs_axis_8" label="Use/Execute">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="abs_axis_7" label="Stun/Alt. Strike">
           <device type="mouse" id="0" name=""/>
           <event type="button" id="BUTTON_MIDDLE"/>
         </button>
-        <button id="abs_axis_7" label="Press-Holster/Hold-Quick Inventory">
-          <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_X1"/>
+        <button id="abs_axis_6" label="Weapon 2">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_5" label="Weapon 4">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="4"/>
+        </button>
+        <button id="abs_axis_4" label="Weapon 3">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="abs_axis_3" label="Weapon 1">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
         </button>
         <button id="abs_axis_2" label="PS Menu">
           <device type="keyboard" id="0" name=""/>
@@ -176,12 +180,20 @@
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="RETURN"/>
         </button>
-        <button id="abs_axis_0" label="In-Game Menu">
+        <button id="abs_axis_0" label="GPS">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="TAB"/>
         </button>
       </button_map>
       <axis_map>
+        <axis id="rel_axis_3" label="Aiming - y axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="40" multiplier="24.38" exponent="0.39" shape="Circle"/>
+        </axis>
+        <axis id="rel_axis_2" label="Aiming - x axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="40" multiplier="19.50" exponent="0.39" shape="Circle"/>
+        </axis>
         <axis id="rel_axis_0-" label="">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="a"/>
@@ -197,14 +209,6 @@
         <axis id="rel_axis_1-" label="">
           <device type="keyboard" id="0" name=""/>
           <event type="button" id="w"/>
-        </axis>
-        <axis id="rel_axis_3" label="Aiming - y axis">
-          <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="34" multiplier="9.00" exponent="0.60" shape="Rectangle"/>
-        </axis>
-        <axis id="rel_axis_2" label="Aiming - x axis">
-          <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="34" multiplier="6.00" exponent="0.60" shape="Rectangle"/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>
