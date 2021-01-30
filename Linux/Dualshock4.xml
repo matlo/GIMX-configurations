@@ -8,19 +8,19 @@
       <button_map>
         <button id="abs_axis_10" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="0"/>
+          <event type="button" id="3"/>
         </button>
         <button id="abs_axis_9" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="1"/>
+          <event type="button" id="0"/>
         </button>
         <button id="abs_axis_8" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="2"/>
+          <event type="button" id="1"/>
         </button>
         <button id="abs_axis_7" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="3"/>
+          <event type="button" id="2"/>
         </button>
         <button id="abs_axis_11" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
@@ -40,31 +40,31 @@
         </button>
         <button id="abs_axis_15" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="10"/>
+          <event type="button" id="11"/>
         </button>
         <button id="abs_axis_16" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="11"/>
+          <event type="button" id="12"/>
         </button>
         <button id="abs_axis_2" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="12"/>
+          <event type="button" id="10"/>
         </button>
         <button id="abs_axis_3" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="14"/>
+          <event type="button" id="13"/>
         </button>
         <button id="abs_axis_4" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="15"/>
+          <event type="button" id="14"/>
         </button>
         <button id="abs_axis_5" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="16"/>
+          <event type="button" id="15"/>
         </button>
         <button id="abs_axis_6" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="button" id="17"/>
+          <event type="button" id="16"/>
         </button>
       </button_map>
       <axis_map>
@@ -78,21 +78,22 @@
         </axis>
         <axis id="rel_axis_2" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="axis" id="2" dead_zone="0" multiplier="0.004" exponent="1.00" shape=""/>
+          <event type="axis" id="3" dead_zone="0" multiplier="0.004" exponent="1.00" shape=""/>
         </axis>
         <axis id="rel_axis_3" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="axis" id="5" dead_zone="0" multiplier="0.004" exponent="1.00" shape=""/>
+          <event type="axis" id="4" dead_zone="0" multiplier="0.004" exponent="1.00" shape=""/>
         </axis>
         <axis id="abs_axis_13" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="axis" id="3" dead_zone="0" multiplier="0.008" exponent="1.00" shape=""/>
+          <event type="axis" id="2" dead_zone="0" multiplier="0.008" exponent="1.00" shape=""/>
         </axis>
         <axis id="abs_axis_14" label="">
           <device type="joystick" id="0" name="Sony Computer Entertainment Wireless Controller"/>
-          <event type="axis" id="4" dead_zone="0" multiplier="0.008" exponent="1.00" shape=""/>
+          <event type="axis" id="5" dead_zone="0" multiplier="0.008" exponent="1.00" shape=""/>
         </axis>
       </axis_map>
+      <joystick_corrections_list/>
     </configuration>
   </controller>
 </root>
