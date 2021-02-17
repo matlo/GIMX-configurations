@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+<!--
+Author: ckaiycool
+Post: https://forum.gimx.fr/viewtopic.php?f=9&t=3413
+Game: Battlefield 3
+Platform: PS3
+Device: Mouse/Keyboard
+Playability: GOOD
+-->
   <controller id="1" dpi="16000" type="Sixaxis">
     <configuration id="1">
       <trigger type="" id="" name="" button_id="" switch_back="" delay="0"/>
       <mouse_options_list>
-        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="1.00"/>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
       </mouse_options_list>
       <intensity_list/>
       <button_map>
         <button id="abs_axis_5" label="Lights on/off">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="t"/>
+          <event type="button" id="v"/>
         </button>
         <button id="abs_axis_3" label="Toggle firemode">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="v"/>
+          <event type="button" id="t"/>
         </button>
         <button id="abs_axis_6" label="Med/ammo/sensor/rpg">
           <device type="keyboard" id="0" name=""/>
@@ -66,7 +74,7 @@
         </button>
         <button id="abs_axis_2" label="PS Button">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Start menu">
           <device type="keyboard" id="0" name=""/>
@@ -80,11 +88,11 @@
       <axis_map>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="20" multiplier="9.00" exponent="0.45" shape="Rectangle"/>
+          <event type="axis" id="y" dead_zone="16" multiplier="7.43" exponent="0.55" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="20" multiplier="6.00" exponent="0.45" shape="Rectangle"/>
+          <event type="axis" id="x" dead_zone="16" multiplier="5.50" exponent="0.55" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_0-" label="">
           <device type="keyboard" id="0" name=""/>
@@ -108,17 +116,17 @@
     <configuration id="2">
       <trigger type="mouse" id="0" name="" button_id="BUTTON_RIGHT" switch_back="yes" delay="0"/>
       <mouse_options_list>
-        <mouse name="" id="0" mode="Aiming" buffer_size="2" filter="1.00"/>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
       </mouse_options_list>
       <intensity_list/>
       <button_map>
         <button id="abs_axis_5" label="Lights on/off">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="t"/>
+          <event type="button" id="v"/>
         </button>
         <button id="abs_axis_3" label="Toggle firemode">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="v"/>
+          <event type="button" id="t"/>
         </button>
         <button id="abs_axis_6" label="Med/ammo/sensor/rpg">
           <device type="keyboard" id="0" name=""/>
@@ -170,7 +178,7 @@
         </button>
         <button id="abs_axis_2" label="PS Button">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Start menu">
           <device type="keyboard" id="0" name=""/>
@@ -184,11 +192,11 @@
       <axis_map>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="20" multiplier="9.00" exponent="0.45" shape="Rectangle"/>
+          <event type="axis" id="y" dead_zone="16" multiplier="8.78" exponent="0.55" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="20" multiplier="6.00" exponent="0.45" shape="Rectangle"/>
+          <event type="axis" id="x" dead_zone="16" multiplier="6.50" exponent="0.55" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_0-" label="">
           <device type="keyboard" id="0" name=""/>

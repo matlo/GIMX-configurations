@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+<!--
+Author: ckaiycool
+Post: https://forum.gimx.fr/viewtopic.php?f=9&t=3420
+Game: Deus Ex: Human Revolution
+Platform: PS3
+Device: Mouse/Keyboard
+Playability: GOOD Slow turnspeed
+Notes:
+In-game sensitivity x-axis and y-axis on max.
+-->
   <controller id="1" dpi="16000" type="Sixaxis">
     <configuration id="1">
       <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
@@ -66,7 +76,7 @@
         </button>
         <button id="abs_axis_2" label="PS Menu">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Pause Menu">
           <device type="keyboard" id="0" name=""/>
@@ -96,11 +106,11 @@
         </axis>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="34" multiplier="7.50" exponent="0.60" shape="Rectangle"/>
+          <event type="axis" id="y" dead_zone="30" multiplier="8.00" exponent="0.70" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="34" multiplier="5.00" exponent="0.60" shape="Rectangle"/>
+          <event type="axis" id="x" dead_zone="30" multiplier="4.00" exponent="0.70" shape="Rectangle"/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>
@@ -170,7 +180,7 @@
         </button>
         <button id="abs_axis_2" label="PS Menu">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Pause Menu">
           <device type="keyboard" id="0" name=""/>
@@ -200,11 +210,11 @@
         </axis>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="34" multiplier="9.00" exponent="0.60" shape="Rectangle"/>
+          <event type="axis" id="y" dead_zone="30" multiplier="10.00" exponent="0.70" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="34" multiplier="6.00" exponent="0.60" shape="Rectangle"/>
+          <event type="axis" id="x" dead_zone="30" multiplier="5.00" exponent="0.70" shape="Rectangle"/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>

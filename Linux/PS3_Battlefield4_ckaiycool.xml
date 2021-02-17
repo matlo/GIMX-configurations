@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+<!--
+Author: ckaiycool
+Post: https://forum.gimx.fr/viewtopic.php?f=9&t=3423
+Game: Battlefield 4
+Platform: PS3
+Device: Mouse/Keyboard
+Playability: GOOD
+Notes:
+Aim assist has two options both needs to be OFF!
+Uniform solder aim on! (It will make your Hipfire speed exactly the same as your ADS speed.)
+Coeffecient 178% (178% is the sweet spot for 16:9 screens) 133% default.
+Sensitivity 100%
+Default controls.
+I strongly recommend to disable all unnecessary messeges in-game or lag will occur.
+-->
   <controller id="1" dpi="16000" type="Sixaxis">
     <configuration id="1">
       <trigger type="" id="" name="" button_id="" switch_back="" delay="0"/>
       <mouse_options_list>
-        <mouse name="" id="0" mode="Aiming" buffer_size="2" filter="1.00"/>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
       </mouse_options_list>
       <intensity_list/>
       <button_map>
@@ -66,7 +81,7 @@
         </button>
         <button id="abs_axis_2" label="PS Menu">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Pause Menu">
           <device type="keyboard" id="0" name=""/>
@@ -96,11 +111,11 @@
         </axis>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="29" multiplier="5.62" exponent="0.52" shape="Circle"/>
+          <event type="axis" id="y" dead_zone="22" multiplier="9.05" exponent="0.49" shape="Circle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="29" multiplier="4.50" exponent="0.52" shape="Circle"/>
+          <event type="axis" id="x" dead_zone="22" multiplier="6.70" exponent="0.49" shape="Circle"/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>
@@ -108,7 +123,7 @@
     <configuration id="2">
       <trigger type="mouse" id="0" name="" button_id="BUTTON_RIGHT" switch_back="yes" delay="0"/>
       <mouse_options_list>
-        <mouse name="" id="0" mode="Aiming" buffer_size="2" filter="1.00"/>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
       </mouse_options_list>
       <intensity_list/>
       <button_map>
@@ -170,7 +185,7 @@
         </button>
         <button id="abs_axis_2" label="PS Menu">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Pause Menu">
           <device type="keyboard" id="0" name=""/>
@@ -200,11 +215,11 @@
         </axis>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="29" multiplier="5.62" exponent="0.52" shape="Circle"/>
+          <event type="axis" id="y" dead_zone="22" multiplier="9.05" exponent="0.49" shape="Circle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="29" multiplier="4.50" exponent="0.52" shape="Circle"/>
+          <event type="axis" id="x" dead_zone="22" multiplier="6.70" exponent="0.49" shape="Circle"/>
         </axis>
       </axis_map>
       <joystick_corrections_list/>

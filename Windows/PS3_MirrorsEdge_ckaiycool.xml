@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+<!--
+Author: ckaiycool
+Post: https://forum.gimx.fr/viewtopic.php?f=9&t=3424
+Game: Mirrors Edge
+Platform: PS3
+Device: Mouse/Keyboard
+Playability: GOOD
+Notes: In-game controller setup. Motion Sensor Function has to be on OFF or you´ll fall from pipes while balancing
+-->
   <controller id="1" dpi="16000" type="Sixaxis">
     <configuration id="1">
       <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
@@ -9,8 +18,8 @@
       <intensity_list/>
       <button_map>
         <button id="abs_axis_16" label="Aim/Zoom">
-          <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_RIGHT"/>
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="f"/>
         </button>
         <button id="abs_axis_14" label="Attack/Fire/Open Doors">
           <device type="mouse" id="0" name=""/>
@@ -18,7 +27,7 @@
         </button>
         <button id="abs_axis_13" label="Crouch/Slide/Roll/Coil/Drop">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="LCTRL"/>
+          <event type="button" id="LSHIFT"/>
         </button>
         <button id="abs_axis_12" label="Quick Turn 90°/180°">
           <device type="keyboard" id="0" name=""/>
@@ -42,11 +51,11 @@
         </button>
         <button id="abs_axis_7" label="Disarm/Drop/Pick Weapon">
           <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_X1"/>
+          <event type="button" id="BUTTON_RIGHT"/>
         </button>
         <button id="abs_axis_2" label="PS Menu">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Pause Menu">
           <device type="keyboard" id="0" name=""/>
@@ -76,11 +85,11 @@
       <axis_map>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="39" multiplier="2.80" exponent="0.61" shape="Rectangle"/>
+          <event type="axis" id="y" dead_zone="38" multiplier="2.80" exponent="0.68" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="39" multiplier="5.00" exponent="0.61" shape="Rectangle"/>
+          <event type="axis" id="x" dead_zone="38" multiplier="5.00" exponent="0.68" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_0-" label="">
           <device type="keyboard" id="0" name=""/>
@@ -125,8 +134,8 @@
           <event type="button" id="UP"/>
         </button>
         <button id="abs_axis_16" label="Aim/Zoom">
-          <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_RIGHT"/>
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="f"/>
         </button>
         <button id="abs_axis_14" label="Attack/Fire/Open Doors">
           <device type="mouse" id="0" name=""/>
@@ -134,7 +143,7 @@
         </button>
         <button id="abs_axis_13" label="Crouch/Slide/Roll/Coil/Drop">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="LCTRL"/>
+          <event type="button" id="LSHIFT"/>
         </button>
         <button id="abs_axis_12" label="Quick Turn 90°/180°">
           <device type="keyboard" id="0" name=""/>
@@ -158,11 +167,11 @@
         </button>
         <button id="abs_axis_7" label="Disarm/Drop/Pick Weapon">
           <device type="mouse" id="0" name=""/>
-          <event type="button" id="BUTTON_X1"/>
+          <event type="button" id="BUTTON_RIGHT"/>
         </button>
         <button id="abs_axis_2" label="PS Menu">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Pause Menu">
           <device type="keyboard" id="0" name=""/>
@@ -176,11 +185,11 @@
       <axis_map>
         <axis id="rel_axis_3" label="Aiming - y axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="39" multiplier="2.80" exponent="0.61" shape="Rectangle"/>
+          <event type="axis" id="y" dead_zone="38" multiplier="2.24" exponent="0.68" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_2" label="Aiming - x axis">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="39" multiplier="5.00" exponent="0.61" shape="Rectangle"/>
+          <event type="axis" id="x" dead_zone="38" multiplier="4.00" exponent="0.68" shape="Rectangle"/>
         </axis>
         <axis id="rel_axis_0-" label="">
           <device type="keyboard" id="0" name=""/>

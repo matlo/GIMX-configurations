@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+<!--
+Author: ckaiycool
+Post: https://forum.gimx.fr/viewtopic.php?f=9&t=3421
+Game: Warhammer 40K: Space Marine
+Platform: PS3
+Device: Mouse/Keyboard
+Playability: GOOD
+Notes:
+Mouse handles most of the attacks (Aim/Fire/Stun/Strike.) to make it easier.
+Set everything like in picture or button configs won't be the same.
+-->
   <controller id="1" dpi="16000" type="Sixaxis">
     <configuration id="1">
       <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>

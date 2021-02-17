@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+<!--
+Author: ckaiycool
+Post: https://forum.gimx.fr/viewtopic.php?f=9&t=3418
+Game: Battlefield: Bad Company
+Platform: PS3
+Device: Mouse/Keyboard
+Playability: Average
+Notes: This setting is probably the best that I have gotten working with Gimx.
+Feels smooth left/right up/down. Diagonal movements quite ok.
+Max sensitivity in game.
+-->
   <controller id="1" dpi="16000" type="Sixaxis">
     <configuration id="1">
       <trigger type="" id="" name="" button_id="" switch_back="no" delay="0"/>
       <mouse_options_list>
-        <mouse name="" id="0" mode="Aiming" buffer_size="3" filter="0.50"/>
+        <mouse name="" id="0" mode="Aiming" buffer_size="2" filter="0.00"/>
       </mouse_options_list>
       <intensity_list/>
       <button_map>
@@ -66,7 +77,7 @@
         </button>
         <button id="abs_axis_2" label="PS3 Menu">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Pause">
           <device type="keyboard" id="0" name=""/>
@@ -80,11 +91,11 @@
       <axis_map>
         <axis id="rel_axis_3" label="">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="53" multiplier="15.32" exponent="0.43" shape="Circle"/>
+          <event type="axis" id="y" dead_zone="48" multiplier="10.17" exponent="0.55" shape="Circle"/>
         </axis>
         <axis id="rel_axis_2" label="">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="53" multiplier="9.12" exponent="0.43" shape="Circle"/>
+          <event type="axis" id="x" dead_zone="48" multiplier="5.50" exponent="0.55" shape="Circle"/>
         </axis>
         <axis id="rel_axis_0-" label="Strafe left">
           <device type="keyboard" id="0" name=""/>
@@ -108,7 +119,7 @@
     <configuration id="2">
       <trigger type="mouse" id="0" name="" button_id="BUTTON_RIGHT" switch_back="yes" delay="0"/>
       <mouse_options_list>
-        <mouse name="" id="0" mode="Aiming" buffer_size="3" filter="0.50"/>
+        <mouse name="" id="0" mode="Aiming" buffer_size="2" filter="0.00"/>
       </mouse_options_list>
       <intensity_list/>
       <button_map>
@@ -170,7 +181,7 @@
         </button>
         <button id="abs_axis_2" label="PS3 Menu">
           <device type="keyboard" id="0" name=""/>
-          <event type="button" id="F5"/>
+          <event type="button" id="BACKSPACE"/>
         </button>
         <button id="abs_axis_1" label="Pause">
           <device type="keyboard" id="0" name=""/>
@@ -184,11 +195,11 @@
       <axis_map>
         <axis id="rel_axis_3" label="">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="y" dead_zone="53" multiplier="21.00" exponent="0.43" shape="Circle"/>
+          <event type="axis" id="y" dead_zone="48" multiplier="12.02" exponent="0.55" shape="Circle"/>
         </axis>
         <axis id="rel_axis_2" label="">
           <device type="mouse" id="0" name=""/>
-          <event type="axis" id="x" dead_zone="53" multiplier="12.50" exponent="0.43" shape="Circle"/>
+          <event type="axis" id="x" dead_zone="48" multiplier="6.50" exponent="0.55" shape="Circle"/>
         </axis>
         <axis id="rel_axis_0-" label="Strafe left">
           <device type="keyboard" id="0" name=""/>

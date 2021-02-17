@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!--
+Author: ckaiycool
+Post: https://forum.gimx.fr/viewtopic.php?f=9&t=3429
+Game: InFAMOUS
+Platform: PS3
+Device: Mouse/Keyboard
+Playability: Average
+Notes: There is not much you can do with the in-game sensitivity, the options are Normal, Fast, Fastest.
+The game has unpredictable acceleration (reminds of input lag) almost like Bioshock, but it's much better.
+-->
+  <controller id="1" dpi="16000" type="Sixaxis">
+    <configuration id="1">
+      <trigger type="" id="" name="" button_id="" switch_back="" delay="0"/>
+      <mouse_options_list>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
+      </mouse_options_list>
+      <intensity_list/>
+      <button_map>
+        <button id="abs_axis_16" label="Switch Shoulder Camera">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_MIDDLE"/>
+        </button>
+        <button id="abs_axis_15" label="Radar Pulse">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="q"/>
+        </button>
+        <button id="abs_axis_14" label="Polarity Wall/Overload Burst/Arc Lightning">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="f"/>
+        </button>
+        <button id="abs_axis_13" label="Electric Drain">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="r"/>
+        </button>
+        <button id="abs_axis_12" label="Shoot/Lock On/Static Trusters">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_LEFT"/>
+        </button>
+        <button id="abs_axis_11" label="Aim Mode">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
+        </button>
+        <button id="abs_axis_10" label="Melee Attack/Thunder  Drop/Shock Grenade/Bio Leech">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_X1"/>
+        </button>
+        <button id="abs_axis_9" label="Jump/Confirm M.S/Shockwave">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="SPACE"/>
+        </button>
+        <button id="abs_axis_8" label="Take Cover/Dive Roll/Drop Down/Cancel M.S/Arc Restraint">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="c"/>
+        </button>
+        <button id="abs_axis_7" label="Interact/look at/Megawatt Hammer/Pulse Heal">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="abs_axis_6" label="Karmic Overload">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_5" label="Lightning Storm">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="4"/>
+        </button>
+        <button id="abs_axis_4" label="Gigawatt Blades">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="abs_axis_3" label="Precious">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_2" label="PS Menu">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="BACKSPACE"/>
+        </button>
+        <button id="abs_axis_1" label="Pause Menu">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="RETURN"/>
+        </button>
+        <button id="abs_axis_0" label="Open Map">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="TAB"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="rel_axis_3" label="Aiming - y axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="44" multiplier="18.00" exponent="0.50" shape="Rectangle"/>
+        </axis>
+        <axis id="rel_axis_2" label="Aiming - x axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="44" multiplier="9.00" exponent="0.50" shape="Rectangle"/>
+        </axis>
+        <axis id="rel_axis_0-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </axis>
+        <axis id="rel_axis_1+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </axis>
+        <axis id="rel_axis_0+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="d"/>
+        </axis>
+        <axis id="rel_axis_1-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="w"/>
+        </axis>
+      </axis_map>
+      <joystick_corrections_list/>
+    </configuration>
+    <configuration id="2">
+      <trigger type="mouse" id="0" name="" button_id="BUTTON_RIGHT" switch_back="yes" delay="0"/>
+      <mouse_options_list>
+        <mouse name="" id="0" mode="Aiming" buffer_size="1" filter="0.00"/>
+      </mouse_options_list>
+      <intensity_list/>
+      <button_map>
+        <button id="abs_axis_16" label="Switch Shoulder Camera">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_MIDDLE"/>
+        </button>
+        <button id="abs_axis_15" label="Radar Pulse">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="q"/>
+        </button>
+        <button id="abs_axis_14" label="Polarity Wall/Overload Burst/Arc Lightning">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="f"/>
+        </button>
+        <button id="abs_axis_13" label="Electric Drain">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="r"/>
+        </button>
+        <button id="abs_axis_12" label="Shoot/Lock On/Static Trusters">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_LEFT"/>
+        </button>
+        <button id="abs_axis_11" label="Aim Mode">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_RIGHT"/>
+        </button>
+        <button id="abs_axis_10" label="Melee Attack/Thunder  Drop/Shock Grenade/Bio Leech">
+          <device type="mouse" id="0" name=""/>
+          <event type="button" id="BUTTON_X1"/>
+        </button>
+        <button id="abs_axis_9" label="Jump/Confirm M.S/Shockwave">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="SPACE"/>
+        </button>
+        <button id="abs_axis_8" label="Take Cover/Dive Roll/Drop Down/Cancel M.S/Arc Restraint">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="c"/>
+        </button>
+        <button id="abs_axis_7" label="Interact/look at/Megawatt Hammer/Pulse Heal">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="e"/>
+        </button>
+        <button id="abs_axis_6" label="Karmic Overload">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="2"/>
+        </button>
+        <button id="abs_axis_5" label="Lightning Storm">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="4"/>
+        </button>
+        <button id="abs_axis_4" label="Gigawatt Blades">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="3"/>
+        </button>
+        <button id="abs_axis_3" label="Precious">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="1"/>
+        </button>
+        <button id="abs_axis_2" label="PS Menu">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="BACKSPACE"/>
+        </button>
+        <button id="abs_axis_1" label="Pause Menu">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="RETURN"/>
+        </button>
+        <button id="abs_axis_0" label="Open Map">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="TAB"/>
+        </button>
+      </button_map>
+      <axis_map>
+        <axis id="rel_axis_3" label="Aiming - y axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="y" dead_zone="44" multiplier="14.10" exponent="0.50" shape="Rectangle"/>
+        </axis>
+        <axis id="rel_axis_2" label="Aiming - x axis">
+          <device type="mouse" id="0" name=""/>
+          <event type="axis" id="x" dead_zone="44" multiplier="6.00" exponent="0.50" shape="Rectangle"/>
+        </axis>
+        <axis id="rel_axis_0-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="a"/>
+        </axis>
+        <axis id="rel_axis_1+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="s"/>
+        </axis>
+        <axis id="rel_axis_0+" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="d"/>
+        </axis>
+        <axis id="rel_axis_1-" label="">
+          <device type="keyboard" id="0" name=""/>
+          <event type="button" id="w"/>
+        </axis>
+      </axis_map>
+      <joystick_corrections_list/>
+    </configuration>
+  </controller>
+</root>
